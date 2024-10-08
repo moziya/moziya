@@ -22,25 +22,23 @@ linkedin: le-li-037117227
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    Data scientist and quantitative researcher with a Ph.D. in Computer Science, specializing in machine learning, statistical modeling, and time-series analysis. Experienced in developing predictive models and implementing algorithmic solutions for complex data challenges. Aiming to apply strong analytical and programming skills to drive insights and strategic decision-making in roles focused on data science or quantitative analysis.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Passionate about leveraging quantitative skills in finance, I am actively expanding my expertise through self-directed study of advanced financial modeling and quantitative finance courses, including _*Financial Markets*_, _*Introduction to Corporate Finance*_, and _*Financial Engineering and Risk Management Specialization*_ on Coursera, _*Financial Derivatives\: A Quantitative Finance View*_ on Udemy.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/LeLi.png
 #portrait_caption: >-
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 experience:
 - name: Cornell University
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/Cornell_University_seal.svg
   position: Postdoc Associate
   date: Feb. 2019 - present
 - name: The Chinese University of Hong Kong
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/CUHK_logo.png
   position: Research Assistant
   date: Aug. 2014 - Feb. 2019
 
@@ -48,22 +46,22 @@ experience:
 
 education:
 - name: The Chinese University of Hong Kong
-  logo: /assets/images/badges/MIT_Social_circle.png
+  logo: /assets/images/badges/CUHK_logo.png
   position: Ph.D. in Computer Science and Engineering
   date: Aug. 2014 - Nov. 2018
 - name: South China University of Technology
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/SCUT_logo.png
   position: M.S. in Computer Applied Technology
   date: Sep. 2011 - Jun. 2014
 - name: South China University of Technology
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/SCUT_logo.png
   position: B.S. in Computer Science and Technology
   date: Sep. 2008 - Jun. 2011
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+#awards:
+#- name: Award Name 2
+#  date: 2024
+#- name: Award Name 1 
+#  date: 2021
+#- name: A quick brown fox jumps over the lazy dog and runs away award
+#  date: 2021
