@@ -3,10 +3,9 @@ secondary_name: ""
 navbar_name: "Le Li"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- logo: /assets/images/badges/Cornell_University_seal.svg  # Logo is optional
   name: Postdoc Associate
-- name: Quantitative Researcher
-- name: Data Scientist
+- name: Quantitative Researcher | Data Scientist | Machine Learning Scientist | Bioinformatics
 
 
 email: "lile.moziya@gmail.com"
