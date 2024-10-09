@@ -4,8 +4,8 @@ navbar_name: "Le Li"
 
 positions:
 - logo: /assets/images/badges/Cornell_University_seal.svg  # Logo is optional
-  name: Postdoc Associate
-- name: Quantitative Researcher | Data Scientist | Machine Learning Scientist | Bioinformatics
+  name: <b>Postdoc Associate</b>
+- name: <b>Quantitative Researcher | Data Scientist | Machine Learning Scientist | Bioinformatics</b>
 
 
 email: "lile.moziya@gmail.com"
@@ -25,7 +25,7 @@ short_bio: >-
     Data scientist and quantitative researcher with a Ph.D. in Computer Science, specializing in machine learning, statistical modeling, and time-series analysis. Experienced in developing predictive models and implementing algorithmic solutions for complex data challenges. Aiming to apply strong analytical and programming skills to drive insights and strategic decision-making in roles focused on data science or quantitative analysis.
   </p>
   <p>
-    Passionate about leveraging quantitative skills in finance, I am actively expanding my expertise through self-directed study of advanced financial modeling and quantitative finance courses, including <i><a href="https://www.coursera.org/learn/financial-markets-global">Financial Markets</i>, <i><a href="https://www.coursera.org/learn/wharton-finance">Introduction to Corporate Finance</i>, and <i><a href="https://www.coursera.org/specializations/financialengineering">Financial Engineering and Risk Management Specialization</i> on <b>Coursera</b>, <i><a href="www.udemy.com/course/financial-derivatives">Financial Derivatives: A Quantitative Finance View</i> on <b>Udemy</b>.
+    Passionate about leveraging quantitative skills in finance, I am actively expanding my expertise through self-directed study of advanced financial modeling and quantitative finance courses, including <i><a href="https://www.coursera.org/learn/financial-markets-global">Financial Markets</a></i>, <i><a href="https://www.coursera.org/learn/wharton-finance">Introduction to Corporate Finance</a></i>, and <i><a href="https://www.coursera.org/specializations/financialengineering">Financial Engineering and Risk Management Specialization</a></i> on <b>Coursera</b>, <i><a href="www.udemy.com/course/financial-derivatives">Financial Derivatives: A Quantitative Finance View</a></i> on <b>Udemy</b>.
   </p>
 
 portrait_url: /assets/images/photos/LeLi.jpg
