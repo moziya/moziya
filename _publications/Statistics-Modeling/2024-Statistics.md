@@ -8,7 +8,7 @@ pub:            "Genome Research (2019)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2017 - 2019"
+pub_date:       "(2017 - 2019)"
 
 abstract: >-
   Led and mentored a team of researchers in developing statistical models to analyze the correlation patterns between  different biomarker variables. Increased 18.2\% of prediction accuracy and identified key indicators influencing outcomes.

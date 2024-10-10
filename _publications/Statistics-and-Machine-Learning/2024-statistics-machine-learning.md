@@ -8,7 +8,7 @@ pub:            "Genome Biology (2017) | Nature Communications (2019) | Briefing
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2016 - 2023"
+pub_date:       "(2016 - 2023)"
 
 abstract: >-
   Led project to develop computational pipelines that utilize quantitative modeling and machine learning algorithms to capture anomaly signal (structural variations) from whole genome sequence maps. The initial model (OMSV) achieved a 31% increase in recall rate and a 20x increase in processing speed compared to the commercial tool, and the second model (COMSV) outperformed OMSV and all existing methods by in cancer settings. We also applied our pipeline for a large-scale data set to support population-level study.

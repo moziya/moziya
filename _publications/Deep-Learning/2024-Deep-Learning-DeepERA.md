@@ -7,8 +7,8 @@ category:	"Deep Learning"
 pub:            "bioRxiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2022"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub_date:       "(2019 - 2022)"
 
 abstract: >-
   A deep learning model effectively modeling and analyzing both sequential data and network data for high-accuracy drug-target interaction prediction. It increased the AUROC by 12% in challenging tasks and made predictions for ~29M drug-target pairs and identified 45K novel drug-protein interactions with high computational confidence.
