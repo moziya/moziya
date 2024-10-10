@@ -1,6 +1,6 @@
 ---
 title:          "Increase swarm intelligence in ensemble learning to handle complex data analysis"
-date:           2022-10-10 00:01:00
+date:           2014-10-10 00:01:00
 selected:       true
 show:		false
 category:	"Machine Learning"
@@ -24,8 +24,4 @@ links:
   IEEE TKDE: https://ieeexplore.ieee.org/abstract/document/7150560
   Pattern Recognition: https://www.sciencedirect.com/science/article/pii/S0031320314001368
   Information Sciences: https://www.sciencedirect.com/science/article/pii/S0020025514000504
-#  Paper: https://www.biorxiv.org/content/10.1101/2023.01.27.525827v1
-#  GitHub: https://github.com/moziya/DeepERA
 ---
-
-
