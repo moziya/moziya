@@ -63,7 +63,7 @@
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
             {%- if item.cover -%}
             <!-- Make the image clickable to open the modal -->
-            <a href="#" data-toggle="modal" data-target="#coverModal-{{ item.id }}">
+            <a href="#" onclick="$('#coverModal-{{ item.id }}').modal('show'); return false;">
                 <img src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="w-100 rounded-sm">
             </a>
             {%- else -%}
