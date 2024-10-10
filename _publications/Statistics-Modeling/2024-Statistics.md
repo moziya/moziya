@@ -11,7 +11,7 @@ pub:            "Genome Research (2019)"
 pub_date:       "(2017 - 2019)"
 
 abstract: >-
-  Led and mentored a team of researchers in developing statistical models to analyze the correlation patterns between  different biomarker variables. Increased 18.2\% of prediction accuracy and identified key indicators influencing outcomes.
+  Led and mentored a team of researchers in developing statistical models to analyze the correlation patterns between  different biomarker variables. Increased 18.2% of prediction accuracy and identified key indicators influencing outcomes.
 cover:          /assets/images/covers/cover3.jpg
 authors:
   - Statistical Analysis
