@@ -1,6 +1,6 @@
 ---
 title:          "Increase swarm intelligence in ensemble learning to handle complex data analysis"
-date:           2014-06-30 00:01:00 +0800
+date:           2014-06-30 00:01:00
 selected:       true
 show:		false
 category:	"Machine Learning"
