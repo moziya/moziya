@@ -64,10 +64,13 @@ education:
   position: B.S. in Computer Science and Technology
   date: Sep. 2008 - Jun. 2011
 
-#awards:
-#- name: Award Name 2
-#  date: 2024
-#- name: Award Name 1 
-#  date: 2021
-#- name: A quick brown fox jumps over the lazy dog and runs away award
-#  date: 2021
+awards:
+- name: Programming Languages
+  date: Python (NumPy, Pandas, Scipy, Scikit-learn), C++, MATLAB, R, SQL, Bash
+- name: Mathematics and Statistics
+  date: Statistical Modeling, Time-Series Analysis, Optimization, Calculus, Probability
+- name: Data Science and Analyasis
+  date: Predictive Modeling, Algorithm Development, Data Wrangling, Data Visualization, Deep Learning
+- name: Platforms and Tools
+  date: High-Performance Clusters (HPC), AWS, Docker, Git, Excel, Tableau
+
