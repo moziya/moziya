@@ -2,6 +2,7 @@
 title:          "Lorem ipsum: Dolor sit amet, consectetur adipiscing elit"
 date:           2023-01-05 00:01:00 +0800
 selected:       true
+show:		true
 category:       "Engineer"
 pub:            "Nature Communications"
 pub_date:       "2023"
