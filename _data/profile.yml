@@ -5,7 +5,7 @@ navbar_name: "Le's Homepage"
 positions:
 - logo: /assets/images/badges/Cornell_University_seal.svg  # Logo is optional
   name: <b>Postdoc Associate</b>
-- name: <b>Quantitative Researcher | Data Scientist | Machine Learning Scientist | Bioinformatics</b>
+#- name: <b>Quantitative Researcher | Data Scientist | Machine Learning Scientist | Bioinformatics</b>
 
 
 email: "lile.moziya@gmail.com"
@@ -22,7 +22,13 @@ linkedin: le-li-037117227
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Who am I? Jacky Chan? No! Then what? Machine Learning Scientist? Computational Scientist? Data Scientist? Bioinformatician? Statistician? Angler? All correct, but not complete. I got my Bachelor, Master, and Ph.D. in Computer Science, specializing in machine learning, statistical modeling, and time-series analysis. Experienced in developing predictive models and implementing algorithmic solutions for complex data challenges including biological and clinical data. I love to apply analytical and programming skills to drive insights and strategic decision-making from data. And all these related to the quantitative analysis, so I would be rather called as a <b><i>Quantitative Researcher</i></b>. Wait, is fishing a quantitative research problem? Why not! Check my Showcase for the analysis.
+    <b>Who am I?</b><br>I’m not Jacky Chan—though I do enjoy a good challenge! I'm a <b>Quantitative Researcher</b> with a passion for solving complex problems through <b>machine learning</b>, <b>statistical modeling</b>, and <b>time-series analysis</b>. With a Bachelor, Master, and Ph.D. in <b>Computer Science</b>, I specialize in building predictive models and designing algorithmic solutions for intricate data challenges, particularly in <b>biological</b> and <b>clinical</b> domains.
+  </p>
+  <p>
+    Professionally, I thrive on applying my analytical and programming expertise to transform data into actionable insights, driving smarter decision-making and deeper understanding. From predictive healthcare models to clinical data analysis, I enjoy tackling high-impact questions through data.
+  </p>
+  <p>
+    Personally, I’m an <b>angler</b> who believes fishing can be a quantitative research problem too—why not! Like in my work, the key to success lies in understanding the data properties and building a comprehensive predictive model that captures the key factors and patterns. Check out my <a href="{{ 'publications' | relative_url }}"><b>Showcase</b></a> to see how I bring together this outdoor activity and quantitative modeling.
   </p>
   <p>
     Passionate about leveraging quantitative skills in finance, I am actively expanding my expertise through self-directed study of advanced financial modeling and quantitative finance courses, including <i><a href="https://www.coursera.org/learn/financial-markets-global">Financial Markets</a></i>, <i><a href="https://www.coursera.org/learn/wharton-finance">Introduction to Corporate Finance</a></i>, and <i><a href="https://www.coursera.org/specializations/financialengineering">Financial Engineering and Risk Management Specialization</a></i> on <b>Coursera</b>, <i><a href="www.udemy.com/course/financial-derivatives">Financial Derivatives: A Quantitative Finance View</a></i> on <b>Udemy</b>.
