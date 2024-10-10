@@ -63,7 +63,7 @@
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
             {%- if item.cover -%}
             <!-- Make the image clickable to open the modal -->
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#coverModal-{{ item.id }}">
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#coverModal-{{ item.id }}" onclick="$('#coverModal-{{ item.id }} img').attr('src', '{{ item.cover | relative_url }}');">
                 <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
             </a>
             {%- else -%}
@@ -128,9 +128,3 @@
     </div>
   </div>
 </div>
-
-<!-- Include Bootstrap CSS and JS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
