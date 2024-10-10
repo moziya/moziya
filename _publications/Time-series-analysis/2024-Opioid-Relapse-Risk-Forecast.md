@@ -3,7 +3,7 @@ title:          "Advanced time-series analysis and risk forecasting of opioid re
 date:           Present
 selected:       true
 show:		true
-category:       "Time-series analysis"
+category:       "Time-series-analysis"
 pub:            "Prepare to submit"
 pub_date:       ""
 abstract: >-
