@@ -1,7 +1,7 @@
 {% assign sanitized_id = include.item.id | replace: '/', '_' | replace: ' ', '_' | replace: '.', '_' %}
 
 <!-- Desktop and Tablet View (d-none d-md-block) -->
-<div class="d-none d-md-block card">
+<div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <!-- Image Section -->
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
