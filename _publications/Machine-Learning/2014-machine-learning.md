@@ -2,7 +2,7 @@
 title:          "Increase swarm intelligence in ensemble learning to handle complex data analysis"
 date:           2020-06-01 00:01:00
 selected:       true
-show:		false
+show:		true
 category:	"Machine Learning"
 pub:            "Top Machine Learning and Data Mining journals, see links below"
 # pub_pre:        "Submitted to "
