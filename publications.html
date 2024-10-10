@@ -6,6 +6,33 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
+
+<div class="row">
+    <!-- Main content: Group publications by project and sort by year within each project -->
+    <div class="col-12 col-lg-10">
+        {% assign pubs_by_project = site.publications | group_by: "category" %}
+        {% for project in pubs_by_project %}
+        {% assign sorted_items = project.items | sort: "date" | reverse %}
+        <h2 class="pt-4" id="project-{{ project.name }}">{{ project.name }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% for item in sorted_items %}
+                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Sidebar navigation: Grouped by projects -->
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-project" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for project in pubs_by_project %}
+            <a class="nav-link d-block" href="#project-{{ project.name }}">{{ project.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!--
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 <div class="row">
@@ -30,3 +57,4 @@ body_attr: >-
     </div>
 
 </div>
+-->
