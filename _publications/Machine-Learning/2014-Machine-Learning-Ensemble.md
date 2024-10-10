@@ -12,7 +12,7 @@ pub_date:       "(2011 - 2015)"
 
 abstract: >-
   I focused on advancing the intelligence of ensemble learning systems to effectively address complex datasets, particularly those with high-dimensional and noisy data. My efforts involved several key areas: 1. Optimization of subgroups through adaptive decision-making strategies, enhancing the accuracy and efficiency of the ensemble models; 2. Integration of diverse data sources within the ensemble system, ensuring robust performance across varying types of input data; 3. Application of fuzzy theory to manage noisy and high-dimensional data, improving the system’s ability to generalize and perform in challenging environments. This work significantly enhanced the capability of ensemble methods to handle real-world, complex data challenges.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/TCYB.png
 authors:
   - Machine Learning
   - Statistics

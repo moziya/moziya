@@ -12,7 +12,7 @@ pub_date:       "(2022 - 2024)"
 
 abstract: >-
   Led the project to utilize AlphaFold architectures (just brought the Nobel Prize in chemistry to its developers!) to build the first comprehensive 3D database of viral-human protein-protein interaction structures. We addressed a critical gap in the current AlphaFold-Multimer-based studies for the viral-human interactome by curating a comprehensive and specific benchmark set. From the constructed 3D viral-human protein-protein interaction database, we also explore interface patterns among different viruses, providing new insights into viral mechanisms and potential therapeutic targets.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/3DVirHost.svg
 authors:
   - Deep Learning
   - AlphaFold
@@ -21,5 +21,5 @@ authors:
   - Infrastructure Development
   - Web Server Deployment
 links:
-  Web Server: 3d-viralhuman.yulab.org
+  Web Server: https://3d-viralhuman.yulab.org
 ---

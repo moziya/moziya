@@ -12,7 +12,7 @@ pub_date:       "(2016 - 2023)"
 
 abstract: >-
   Led project to develop computational pipelines that utilize quantitative modeling and machine learning algorithms to capture anomaly signal (structural variations) from whole genome sequence maps. The initial model (OMSV) achieved a 31% increase in recall rate and a 20x increase in processing speed compared to the commercial tool, and the second model (COMSV) outperformed OMSV and all existing methods by in cancer settings. We also applied our pipeline for a large-scale data set to support population-level study.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/OMSV.png
 authors:
   - Statistical Modeling
   - Machine Learning
