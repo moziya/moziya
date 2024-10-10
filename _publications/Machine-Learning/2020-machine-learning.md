@@ -5,9 +5,6 @@ selected:       true
 show:		true
 category:	"Machine Learning"
 pub:            "Top Machine Learning and Data Mining journals, see links below"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2011 - 2015"
 
 abstract: >- 
