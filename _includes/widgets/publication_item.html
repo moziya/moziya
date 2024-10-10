@@ -63,11 +63,11 @@
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
             {%- if item.cover -%}
             <!-- Make the image clickable to open the modal -->
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#coverModal-{{ item.id }}">
-                <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ item.cover | relative_url }}">
+            <a href="#" data-toggle="modal" data-target="#coverModal-{{ item.id }}">
+                <img src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="w-100 rounded-sm">
             </a>
             {%- else -%}
-            <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
+            <svg class="bubble-visual-hash w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
             {%- endif -%}
         </div>
 
