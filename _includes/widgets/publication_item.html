@@ -14,15 +14,15 @@
             <div class="d-flex align-items-center justify-content-center" style="height: 150px;">
                 {% case include.item.category %}
                     {% when "Deep Learning" %}
-                        <img src="{{ '/assets/images/cover/deep-learning.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
+                        <img src="{{ '/assets/images/covers/deep-learning.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% when "Statistical Modeling" %}
-                        <img src="{{ '/assets/images/cover/Statistical_modeling.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
+                        <img src="{{ '/assets/images/covers/Statistical_modeling.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% when "Time-Series Analysis" %}
-                        <img src="{{ '/assets/images/cover/time-series-chart.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
+                        <img src="{{ '/assets/images/covers/time-series-chart.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% when "Machine Learning Algorithm" %}
-                        <img src="{{ '/assets/images/cover/learning-machine-ai-icon.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
+                        <img src="{{ '/assets/images/covers/learning-machine-ai-icon.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% else %}
-                        <img src="{{ '/assets/images/cover/miscellaneous.svg' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
+                        <img src="{{ '/assets/images/covers/miscellaneous.svg' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                 {% endcase %}
             </div>
             {%- endif -%}
