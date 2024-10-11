@@ -1,7 +1,7 @@
 <div class="row align-items-stretch mt-3">
     <!-- Profiling Card Section -->
     <div class="col-md-4 mb-4 d-flex align-items-stretch">
-        <div class="card border-0 shadow-sm bg-white w-100 h-100">
+        <div class="card border-0 shadow-sm bg-white w-100 h-100" style="min-height: 100%;">
             <div class="card-body text-center">
                 {% if site.data.profile.portrait_url %}
                 <div class="figure mb-4">
@@ -24,7 +24,7 @@
                     <a href="#" data-toggle="modal" data-target="#resumeModal"><i class="fas fa-file-alt"></i> Resume</a><br />
     
                     <!-- Modal for Resume -->
-                    <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -83,7 +83,7 @@
     </div>
     <!-- Summary Section -->
     <div class="col-md-4 d-flex align-items-stretch">
-        <div class="card border-0 shadow-sm bg-white w-100 h-100">
+        <div class="card border-0 shadow-sm bg-white w-100 h-100" style="min-height: 100%;">
             <div class="card-body p-4">
                 <h2 class="font-weight-light mb-4">About Me</h2>
                 <p>{{ site.data.profile.short_bio }}</p>
@@ -93,7 +93,7 @@
 
     <!-- Career Goals Section -->
     <div class="col-md-4 d-flex align-items-stretch">
-        <div class="card border-0 shadow-sm bg-white w-100 h-100">
+        <div class="card border-0 shadow-sm bg-white w-100 h-100" style="min-height: 100%;">
             <div class="card-body p-4">
                 <h3 class="font-weight-light mb-4">Career Goals</h3>
                 <p>Passionate about leveraging quantitative skills in finance, I am actively expanding my expertise through self-directed study of advanced financial modeling and quantitative finance courses, including:</p>
