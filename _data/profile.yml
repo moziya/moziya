@@ -4,7 +4,7 @@ navbar_name: "Le's Homepage"
 
 positions:
 - logo: /assets/images/badges/Cornell_University_seal.svg  # Logo is optional
-  name: <b>Postdoc Associate</b>
+  name: <b>Research Scientist</b>
 #- name: <b>Quantitative Researcher | Data Scientist | Machine Learning Scientist | Bioinformatics</b>
 
 
@@ -41,11 +41,11 @@ portrait_url: /assets/images/photos/LeLi.jpg
 experience:
 - name: Cornell University
   logo: /assets/images/badges/Cornell_University_seal.svg
-  position: Postdoc Associate
+  position: Research Scientist (Postdoc Associate)
   date: Feb. 2019 - present
 - name: The Chinese University of Hong Kong
   logo: /assets/images/badges/CUHK_logo.png
-  position: Research Assistant
+  position: Research Assistant (Ph.D. candidate)
   date: Aug. 2014 - Feb. 2019
 
 
