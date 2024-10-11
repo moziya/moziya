@@ -1,6 +1,7 @@
 {%- assign authors = include.authors -%}
 {%- assign has_eq_contrib = false -%}
 {%- assign has_corresponding = false -%}
+{%- assign has_PI_first = false -%}
 
 {%- for _key in authors -%}
     {%- assign last_char = _key | slice: -1, 1%}
@@ -13,7 +14,7 @@
         {%- assign mark = '<sup>#</sup>' -%}
         {%- assign has_corresponding = true -%}
     {%- elsif last_char == "+" -%}
-        {%- assign key = _key | split: "#" | first -%}
+        {%- assign key = _key | split: "+" | first -%}
         {%- assign mark = '<sup>+</sup>' -%}
         {%- assign has_PI_first = true -%}
     {%- else -%}

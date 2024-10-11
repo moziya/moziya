@@ -18,7 +18,7 @@
         <!-- Content Section -->
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">{{ include.item.title }}</h5>
-            <p class="mt-0 mb-0 small"><b>Skills</b>: {% include widgets/author_list.html authors=include.item.authors %}</p>
+            <p class="mt-0 mb-0 small">{% if include.item.selected %}<b>Skills: </b>{% endif %}{% include widgets/author_list.html authors=include.item.authors %}</p>
             <p class="mt-0 mb-0 small">{{ include.item.pub_date }} {{ include.item.pub_pre }}<i>{{ include.item.pub }}</i>{{ include.item.pub_post }} {{ include.item.pub_last }}</p>
             <p class="mt-0 mb-0 small text-muted">{{ include.item.abstract }}</p>
 
@@ -41,7 +41,7 @@
         <div class="mb-auto"></div>
         <div>
             <h5 class="mt-0 mb-1 font-weight-normal">{{ include.item.title }}</h5>
-            <p class="mt-0 mb-0 small"><b>Skills</b>: {% include widgets/author_list.html authors=include.item.authors %}</p>
+            <p class="mt-0 mb-0 small">{% if include.item.selected %}<b>Skills: </b>{% endif %}{% include widgets/author_list.html authors=include.item.authors %}</p>
             <p class="mt-0 mb-0 small">{{ include.item.pub_date }} {{ include.item.pub_pre }}<i>{{ include.item.pub }}</i>{{ include.item.pub_post }} {{ include.item.pub_last }}</p>
             <p class="mt-0 mb-0 small text-muted">{{ include.item.abstract }}</p>
 
