@@ -114,30 +114,3 @@
         </div>
     </div>
 </div>
-
-<script>
-$(document).ready(function() {
-    $('#resumeModal').on('shown.bs.modal', function () {
-        var url = '{{ site.data.profile.cv_link | relative_url }}';
-        $.ajax({
-            type: 'HEAD',
-            url: url,
-            success: function(data, status, xhr) {
-                var lastModified = xhr.getResponseHeader('Last-Modified');
-                if (lastModified) {
-                    var date = new Date(lastModified);
-                    var options = { year: 'numeric', month: 'long', day: 'numeric' };
-                    var formattedDate = date.toLocaleDateString(undefined, options);
-                    $('#resumeLastModified').text(formattedDate);
-                } else {
-                    $('#resumeLastModified').text('Unknown');
-                }
-            },
-            error: function(xhr, status, error) {
-                console.error('Error fetching last modified date:', error);
-                $('#resumeLastModified').text('Unknown');
-            }
-        });
-    });
-});
-</script>
