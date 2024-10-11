@@ -9,7 +9,7 @@ positions:
 
 
 email: "lile.moziya@gmail.com"
-#cv_link: 
+cv_link: /assets/resume.pdf
 gscholar: fmtx_vUAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: moziya
 #twitter: your_twitter_id  # Do not include the '@' symbol
@@ -25,7 +25,7 @@ short_bio: >-
   
   <p>My expertise lies in transforming data into actionable insights to drive smarter decision-making and foster deeper understanding. I enjoy tackling high-impact questions, from predictive biological and healthcare models to clinical data analysis.</p>
   
-  <p>Personally, I’m an <b>angler</b> who sees fishing as another quantitative research challenge—why not! Success, both in work and fishing, comes from building comprehensive models that capture key patterns.</p>
+#  <p>Personally, I’m an <b>angler</b> who sees fishing as another quantitative research challenge—why not! Success, both in work and fishing, comes from building comprehensive models that capture key patterns.</p>
 portrait_url: /assets/images/photos/LeLi.jpg
 #portrait_caption: >-
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
