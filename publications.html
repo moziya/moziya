@@ -5,12 +5,12 @@ navbar_title: Publications
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
+<!-- Main content: Group publications by project and sort by year within each project
 
 {% assign pubs_by_project = site.publications | group_by: "category" %}
 {% assign ordered_categories = "Deep Learning,Statistical Modeling,Time-Series Analysis,Machine Learning Algorithm,Others" | split: "," %}
 
 <div class="row">
-    <!-- Main content: Group publications by project and sort by year within each project -->
     <div class="col-12 col-lg-10">
         {% for category in ordered_categories %}
             {% assign project = pubs_by_project | where: "name", category | first %}
@@ -30,7 +30,6 @@ body_attr: >-
         {% endfor %}
     </div>
 
-    <!-- Sidebar navigation: Grouped by projects -->
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-project" class="nav nav-pills flex-column sticky-top" style="top: 80px">
             {% for category in ordered_categories %}
@@ -43,8 +42,7 @@ body_attr: >-
     </div>
 </div>
 
-
-<!--
+-->
 <div class="row">
     <div class="col-12 col-lg-10">
         {% assign pubs_by_project = site.publications | group_by: "category" %}
@@ -67,4 +65,3 @@ body_attr: >-
         </div>
     </div>
 </div>
--->
