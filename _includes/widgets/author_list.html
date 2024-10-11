@@ -12,6 +12,10 @@
         {%- assign key = _key | split: "#" | first -%}
         {%- assign mark = '<sup>#</sup>' -%}
         {%- assign has_corresponding = true -%}
+    {%- elsif last_char == "+" -%}
+        {%- assign key = _key | split: "#" | first -%}
+        {%- assign mark = '<sup>+</sup>' -%}
+        {%- assign has_PI_first = true -%}
     {%- else -%}
         {%- assign key = _key -%}
         {%- assign mark = "" -%}
@@ -41,10 +45,13 @@
 
 {%- endfor -%}
 
-{%- if has_eq_contrib or has_corresponding %}
+{%- if has_eq_contrib or has_corresponding or has_PI_first %}
 <mark>(
     {%- if has_eq_contrib -%}
         * <i> equal contribution</i>
+    {%- endif -%}
+    {%- if has_PI_first -%}
+        <sup>+</sup> <i> PI is first author</i>
     {%- endif -%}
     {%- if has_corresponding -%}
         {%- if has_eq_contrib -%}, {% endif -%}
