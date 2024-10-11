@@ -11,7 +11,21 @@
                 <img src="{{ include.item.cover | relative_url }}" alt="{{ include.item.title }}" class="w-100 rounded-sm">
             </a>
             {%- else -%}
-            <svg class="bubble-visual-hash w-100 rounded-sm" data-bubble-visual-hash="{{ sanitized_id }}" viewBox="0 0 300 200"></svg>
+            <div class="d-flex align-items-center justify-content-center" style="height: 150px;">
+                {% case include.item.category %}
+                    {% when "Deep Learning" %}
+                        <i class="fas fa-brain" style="font-size: 50px; color: #007bff;"></i>
+                    {% when "Statistical Modeling" %}
+                        <i class="fas fa-chart-area" style="font-size: 50px; color: #28a745;"></i>
+                    {% when "Time-Series Analysis" %}
+                        <i class="fas fa-chart-line" style="font-size: 50px; color: #ffc107;"></i>
+                    {% when "Machine Learning Algorithm" %}
+                        <i class="fas fa-robot" style="font-size: 50px; color: #dc3545;"></i>
+                    {% else %}
+                        <i class="fas fa-cogs" style="font-size: 50px; color: #6c757d;"></i>
+                {% endcase %}
+            </div>
+<!--            <svg class="bubble-visual-hash w-100 rounded-sm" data-bubble-visual-hash="{{ sanitized_id }}" viewBox="0 0 300 200"></svg> -->
             {%- endif -%}
         </div>
 
