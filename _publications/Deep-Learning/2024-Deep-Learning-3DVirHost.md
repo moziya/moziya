@@ -4,6 +4,7 @@ date:           2024-10-10 00:01:00
 selected:       true
 show:		false
 category:	"Deep Learning"
+id:		3
 pub:            "Prepare to submit"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

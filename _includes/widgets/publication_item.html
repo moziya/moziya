@@ -1,4 +1,4 @@
-{% assign sanitized_id = include.item.title | replace: '/', '_' | replace: ' ', '_' | replace: '.', '_' %}
+{% assign sanitized_id = include.item.id | replace: '/', '_' | replace: ' ', '_' | replace: '.', '_' %}
 
 <!-- Desktop and Tablet View (d-none d-md-block) -->
 <div class="d-none d-md-block">

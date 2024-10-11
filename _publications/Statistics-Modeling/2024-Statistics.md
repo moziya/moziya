@@ -4,6 +4,7 @@ date:           2019-05-12
 selected:       true
 show:		false
 category:	"Statistical Modeling"
+id:		27
 pub:            "Genome Research (2019)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

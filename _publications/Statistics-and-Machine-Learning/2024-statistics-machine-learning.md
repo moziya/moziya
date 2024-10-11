@@ -4,6 +4,7 @@ date:           2017-05-12 00:01:00
 selected:       true
 show:		false
 category:	"Statistical Modeling"
+id:		24
 pub:            "Genome Biology (2017) | Nature Communications (2019) | Briefings in Bioinformatics (2024)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

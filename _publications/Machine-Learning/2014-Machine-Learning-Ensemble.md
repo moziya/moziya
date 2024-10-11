@@ -4,6 +4,7 @@ date:           2014-10-10 00:01:00
 selected:       true
 show:		false
 category:	"Machine Learning Algorithm"
+id:		11
 pub:            "Top Machine Learning and Data Mining journals, see links below"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
