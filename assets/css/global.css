@@ -82,7 +82,3 @@ div.lazy {
     display: flex;
     flex-wrap: wrap;
 }
-* {
-    animation: none !important;
-    transition: none !important;
-}
