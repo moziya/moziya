@@ -14,15 +14,15 @@
             <div class="d-flex align-items-center justify-content-center" style="height: 150px;">
                 {% case include.item.category %}
                     {% when "Deep Learning" %}
-                        <i class="fas fa-network-wired" style="font-size: 50px; color: #007bff;"></i>
+                        <img src="{{ '/assets/images/cover/deep-learning.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% when "Statistical Modeling" %}
-                        <i class="fas fa-chart-line" style="font-size: 50px; color: #28a745;"></i>
+                        <img src="{{ '/assets/images/cover/Statistical_modeling.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% when "Time-Series Analysis" %}
-                        <i class="fas fa-chart-line" style="font-size: 50px; color: #ffc107;"></i>
+                        <img src="{{ '/assets/images/cover/time-series-chart.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% when "Machine Learning Algorithm" %}
-                        <i class="fas fa-robot" style="font-size: 50px; color: #dc3545;"></i>
+                        <img src="{{ '/assets/images/cover/learning-machine-ai-icon.png' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                     {% else %}
-                        <i class="fas fa-cogs" style="font-size: 50px; color: #6c757d;"></i>
+                        <img src="{{ '/assets/images/cover/miscellaneous.svg' | relative_url }}" alt="{{ include.item.title }}" class="w-75 rounded-sm">
                 {% endcase %}
             </div>
             {%- endif -%}
