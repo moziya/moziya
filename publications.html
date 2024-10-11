@@ -7,8 +7,43 @@ body_attr: >-
 ---
 
 
+{% assign pubs_by_project = site.publications | group_by: "category" %}
+{% assign ordered_categories = "Deep Learning,Statistical Modeling,Time-series Analysis,Machine Learning,Others" | split: "," %}
+
 <div class="row">
     <!-- Main content: Group publications by project and sort by year within each project -->
+    <div class="col-12 col-lg-10">
+        {% for category in ordered_categories %}
+            {% assign project = pubs_by_project | where: "name", category | first %}
+            {% if project %}
+                {% assign sorted_items = project.items | sort: "date" | reverse | where: "show", true %}
+                <h2 class="pt-4" id="project-{{ project.name }}">{{ project.name }}</h2>
+                <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+                    {% for item in sorted_items %}
+                        {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <!-- Sidebar navigation: Grouped by projects -->
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-project" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for category in ordered_categories %}
+                {% assign project = pubs_by_project | where: "name", category | first %}
+                {% if project %}
+                    <a class="nav-link d-block" href="#project-{{ project.name }}">{{ project.name }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+<!--
+<div class="row">
+    <!-- Main content: Group publications by project and sort by year within each project 
     <div class="col-12 col-lg-10">
         {% assign pubs_by_project = site.publications | group_by: "category" %}
         {% for project in pubs_by_project %}
@@ -22,7 +57,7 @@ body_attr: >-
         {% endfor %}
     </div>
 
-    <!-- Sidebar navigation: Grouped by projects -->
+    <!-- Sidebar navigation: Grouped by projects 
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-project" class="nav nav-pills flex-column sticky-top" style="top: 80px">
             {% for project in pubs_by_project %}
@@ -31,3 +66,4 @@ body_attr: >-
         </div>
     </div>
 </div>
+-->

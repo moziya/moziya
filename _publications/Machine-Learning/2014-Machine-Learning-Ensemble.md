@@ -3,7 +3,7 @@ title:          "Increase swarm intelligence in ensemble learning to handle comp
 date:           2014-10-10 00:01:00
 selected:       true
 show:		false
-category:	"Machine Learning"
+category:	"Machine Learning Algorithm"
 pub:            "Top Machine Learning and Data Mining journals, see links below"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
