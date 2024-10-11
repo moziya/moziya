@@ -20,5 +20,5 @@ authors:
   - Alfred Cheng
   - Kevin Yip
 links:
-  Publication: https://genome.cshlp.org/content/29/4/543.short
+  Link: https://genome.cshlp.org/content/29/4/543.short
 ---

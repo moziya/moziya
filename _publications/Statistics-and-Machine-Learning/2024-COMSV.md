@@ -3,7 +3,7 @@ title:          "Accurate identification of structural variations from cancer sa
 date:           2024-01-01 00:01:00
 selected:       false
 show:		true
-category:	"Statistics and Machine Learning"
+category:	"Statistical Modeling"
 pub:            "Briefings in Bioinformatics"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

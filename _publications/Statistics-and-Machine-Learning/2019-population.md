@@ -3,7 +3,7 @@ title:          "Genome maps across 26 human populations reveal population-speci
 date:           2019-03-04 00:01:00
 selected:       false
 show:		true
-category:	"Statistics and Machine Learning"
+category:	"Statistical Modeling"
 pub:            "Nature Communications"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
@@ -41,5 +41,5 @@ authors:
   - Ming Xiao
   - Pui-Yan Kwok
 links:
-  Publication: https://www.nature.com/articles/s41467-019-08992-7
+  Link: https://www.nature.com/articles/s41467-019-08992-7
 ---
