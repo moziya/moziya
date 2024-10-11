@@ -1,6 +1,6 @@
 <div class="row align-items-stretch mt-3">
     <!-- Profiling Card Section -->
-    <div class="col-md-4 mb-4 d-flex align-items-stretch">
+    <div class="col-md-4 d-flex align-items-stretch">
         <div class="card border-0 shadow-sm bg-white w-100 h-100" style="min-height: 100%;">
             <div class="card-body text-center">
                 {% if site.data.profile.portrait_url %}
@@ -49,9 +49,20 @@
                 
                 <!-- Contact Links Section -->
                 <div class="mt-3">
+
+                    <div>
+                    <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
+                        <i class="fas fa-at"></i> Email
+                    </a>
+
+                    <a class="pr-3 no-break" target="_blank" href="https://www.google.com/maps/place/42.447190,-76.477487">
+                        <i class="fas fa-map-marker-alt"></i> Ithaca, NY, US
+                    </a>
+                    </div>
+
                     {% if site.data.profile.github %}
                     <div>
-                    <a class="pr-3 no-break d-block" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
+                    <a class="pr-1 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
                         <i class="fab fa-github"></i> GitHub
                     </a>
                     </div>
@@ -59,7 +70,7 @@
                     
                     {% if site.data.profile.linkedin %}
                     <div>
-                    <a class="pr-3 no-break d-block" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
+                    <a class="pr-1 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
                         <i class="fab fa-linkedin"></i> LinkedIn
                     </a>
                     </div>
@@ -67,22 +78,11 @@
 
                     {% if site.data.profile.gscholar %}
                     <div>
-                    <a class="pr-3 no-break d-block" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.linkedin }}">
+                    <a class="pr-0 no-break" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.linkedin }}">
                         <i class="ai ai-google-scholar"></i> Google Scholar
                     </a>
                     </div>
                     {% endif %}
-                    <div>
-                    <a class="pr-3 no-break d-block" href="mailto:{{ site.data.profile.email | encode_email }}">
-                        <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
-                    </a>
-                    </div>
-
-                    <div>
-                    <a class="pr-3 no-break d-block" target="_blank" href="https://www.google.com/maps/place/42.447190,-76.477487">
-                        <i class="fas fa-map-marker-alt"></i> Ithaca, NY, US
-                    </a>
-                    </div>
 
                     
                     <!-- Add other social icons similarly -->
