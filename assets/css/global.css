@@ -77,3 +77,8 @@ div.lazy {
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
 }
+/* Ensure all columns have equal height */
+.row.align-items-stretch {
+    display: flex;
+    flex-wrap: wrap;
+}
