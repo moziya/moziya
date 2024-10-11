@@ -1,6 +1,6 @@
 <div class="row align-items-stretch mt-3">
     <!-- Profiling Card Section -->
-    <div class="col-md-6 mb-4 d-flex align-items-stretch">
+    <div class="col-md-4 mb-4 d-flex align-items-stretch">
         <div class="card border-0 shadow-sm bg-white w-100">
             <div class="card-body text-center">
                 {% if site.data.profile.portrait_url %}
@@ -47,17 +47,32 @@
             </div>
         </div>
     </div>
-    <!-- Decorative Line -->
-    <div class="w-100 decorative-line"></div>
     <!-- Summary Section -->
-    <div class="col-md-6 d-flex align-items-stretch">
-        <div class="card border-0 shadow-sm bg-light w-100">
-            <div class="card-body p-5">
+    <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card border-0 shadow-sm bg-white w-100">
+            <div class="card-body p-4">
                 <h2 class="font-weight-light mb-4">About Me</h2>
                 <p>{{ site.data.profile.short_bio }}</p>
             </div>
         </div>
     </div>
+
+    <!-- Career Goals Section -->
+    <div class="col-md-4 d-flex align-items-stretch">
+        <div class="card border-0 shadow-sm bg-white w-100">
+            <div class="card-body p-4">
+                <h3 class="font-weight-light mb-4">Career Goals</h3>
+                <p>Passionate about leveraging quantitative skills in finance, I am actively expanding my expertise through self-directed study of advanced financial modeling and quantitative finance courses, including:</p>
+                <ul>
+                    <li><i><a href="https://www.coursera.org/learn/financial-markets-global">Financial Markets</a></i> on <b>Coursera</b></li>
+                    <li><i><a href="https://www.coursera.org/learn/wharton-finance">Introduction to Corporate Finance</a></i> on <b>Coursera</b></li>
+                    <li><i><a href="https://www.coursera.org/specializations/financialengineering">Financial Engineering and Risk Management Specialization</a></i> on <b>Coursera</b></li>
+                    <li><i><a href="https://www.udemy.com/course/financial-derivatives">Financial Derivatives: A Quantitative Finance View</a></i> on <b>Udemy</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <!-- Modal for WeChat QR Code -->
