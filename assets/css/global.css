@@ -82,6 +82,3 @@ div.lazy {
     display: flex;
     flex-wrap: wrap;
 }
-.modal-body {
-    overflow-y: auto;
-}
