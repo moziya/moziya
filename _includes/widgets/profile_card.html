@@ -1,105 +1,67 @@
 <div class="row">
-    <div class="col">
+    <!-- Profiling Card Section -->
+    <div class="col-lg-4 col-md-5 mb-4">
         <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-5">
-                <div class="row">
-                    <div class="col">
-                        {% if site.data.profile.portrait_url %}
-                        <!-- When the screen is wider than md, float the portrait on the right -->
-                        <div class="figure float-right ml-4 mb-4 d-none d-md-block">
-                            <img 
-                                src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid img-thumbnail" 
-                                style="height: 200px;"
-                                data-toggle="tooltip" 
-                                data-placement="top" 
-                                title="{{ site.data.profile.portrait_caption }}">
-                        </div>
-                        {% endif %}
-
-                        <div class="h1 font-weight-normal">
-                            {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
-                        </div>
-<!--                        <div class="text-profile-position"> 
-                            {% for position in site.data.profile.positions %}
-                            {% if position.logo -%}
-                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
-                            {%- endif %}
-                            <small>{{ position.name }}</small><br/>
-                            {% endfor %}
-                        </div>
--->
-                        <div class="text-profile-bio mt-3" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
-                            {{ site.data.profile.short_bio }}
-                        </div>
-                        {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> Resume</a> <br/>
-                        {% endif %}
-                    </div>
-
-                    {% if site.data.profile.portrait_url %}
-                    <!-- When the screen is smaller than md, place the portrait below the text -->
-                    <div class="figure col-md-auto d-md-none">
-                        <img 
-                            src="{{ site.data.profile.portrait_url | relative_url }}" 
-                            class="figure-img img-fluid img-thumbnail" 
-                            style="height: 200px;"
-                            data-toggle="tooltip" 
-                            data-placement="top" 
-                            title="{{ site.data.profile.portrait_caption }}">
-                    </div>
-                    {% endif %}
-        
+            <div class="card-body text-center">
+                {% if site.data.profile.portrait_url %}
+                <div class="figure mb-4">
+                    <img
+                        src="{{ site.data.profile.portrait_url | relative_url }}"
+                        class="figure-img img-fluid img-thumbnail"
+                        style="height: 200px;"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="{{ site.data.profile.portrait_caption }}">
                 </div>
-                <hr />
-                <div class="row">
-                    <div class="col">
-                        <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
-                            <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
-                        </a>
+                {% endif %}
 
-                        {% if site.data.profile.gscholar %}
-                        <a class="pr-3 no-break" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
-                            <i class="fab fa-google-scholar"></i> Google Scholar
-                        </a>
-                        {% endif %}
-                        
-                        {% if site.data.profile.github %}
-                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.wechat_qrcode %}
-                        <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
-                            <i class="fab fa-weixin"></i> WeChat
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.twitter %}
-                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
-                            <i class="fab fa-twitter"></i> Twitter
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.linkedin %}
-                        <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
-                            <i class="fab fa-linkedin"></i> LinkedIn
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.orcid %}
-                        <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
-                            <i class="fab fa-orcid"></i> ORCID
-                        </a>
-                        {% endif %}
-                    </div>
+                <div class="h2 font-weight-normal">
+                    {{ site.data.profile.primary_name }}
+                    <small class="d-block text-muted">{{ site.data.profile.secondary_name }}</small>
+                </div>
+                
+                {% if site.data.profile.cv_link %}
+                    <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> Resume</a><br />
+                {% endif %}
+                
+                <!-- Contact Links Section -->
+                <div class="mt-3">
+                    <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
+                        <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
+                    </a>
+                    
+                    {% if site.data.profile.github %}
+                    <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    {% endif %}
+                    
+                    {% if site.data.profile.linkedin %}
+                    <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    {% endif %}
+                    
+                    <!-- Add other social icons similarly -->
                 </div>
             </div>
-        </div>        
+        </div>
+    </div>
+
+    <!-- Summary Section -->
+    <div class="col-lg-8 col-md-7">
+        <div class="card border-0 shadow-sm bg-light">
+            <div class="card-body p-5">
+                <h2 class="font-weight-light mb-4">About Me</h2>
+                <div class="text-profile-bio" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
+                    <p>{{ site.data.profile.short_bio }}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
+<!-- Modal for WeChat QR Code -->
 {% if site.data.profile.wechat_qrcode %}
 <div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-sm">
