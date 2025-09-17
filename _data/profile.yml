@@ -9,21 +9,22 @@ positions:
 
 
 email: "lile.moziya@gmail.com"
-cv_link: /assets/Resume_LeLi.pdf
+cv_link: /assets/Le_Li_MLE_Resume_Updated.pdf
 gscholar: fmtx_vUAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: moziya
 #twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-linkedin: le-li-037117227
+linkedin: leli-comp
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>I am a <b>Research Scientist</b> passionate about solving complex problems using <a href="/moziya/publications#project-Machine%20Learning%20Algorithm"><b>machine learning</b></a>, <a href="/moziya/publications#project-Deep%20Learning"><b>deep learning</b></a>, <a href="/moziya/publications#project-Statistical%20Modeling"><b>statistical modeling</b></a>, and <a href="/moziya/publications#project-Time-Series%20Analysis"><b>time-series analysis</b></a>. I hold a Ph.D. in <b>Computer Science</b>, specializing in predictive modeling and algorithmic solutions for intricate data challenges.</p>
+<p>I am a Machine Learning Scientist transitioning into ML Engineering, with a decade of experience in deep learning, time-series modeling, and large-scale data pipelines. I specialize in building <b>end-to-end ML systems<\b> -- from data ingestion and model development to deployment, monitoring, and scalability in production environments. My background spans computer science, computational biology, structural proteomics, and healthcare analytics, where I’ve deployed <b>production-grade ML pipelines<\b> that reduced experimental costs, improved predictive performance, and enabled real-world impact.<\p>
+#  <p>I am a <b>Research Scientist</b> passionate about solving complex problems using <a href="/moziya/publications#project-Machine%20Learning%20Algorithm"><b>machine learning</b></a>, <a href="/moziya/publications#project-Deep%20Learning"><b>deep learning</b></a>, <a href="/moziya/publications#project-Statistical%20Modeling"><b>statistical modeling</b></a>, and <a href="/moziya/publications#project-Time-Series%20Analysis"><b>time-series analysis</b></a>. I hold a Ph.D. in <b>Computer Science</b>, specializing in predictive modeling and algorithmic solutions for intricate data challenges.</p>
   
-  <p>My expertise lies in transforming data into actionable insights to drive smarter decision-making and foster deeper understanding. I enjoy tackling high-impact questions, from predictive biological and healthcare models to clinical data analysis.</p>
+#  <p>My expertise lies in transforming data into actionable insights to drive smarter decision-making and foster deeper understanding. I enjoy tackling high-impact questions, from predictive biological and healthcare models to clinical data analysis.</p>
   
 #  <p>Personally, I’m an <b>angler</b> who sees fishing as another quantitative research challenge—why not! Success, both in work and fishing, comes from building comprehensive models that capture key patterns.</p>
 portrait_url: /assets/images/photos/LeLi.jpg
@@ -31,14 +32,14 @@ portrait_url: /assets/images/photos/LeLi.jpg
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 experience:
-- name: Cornell University
+- name: Prologue Medicines (2025), Senior Scientist I
+  logo: https://cdn.theorg.com/79f1f911-b082-4854-9a36-80c9ce861898_thumb.jpg
+  position: Architected and deployed the company’s first production ML pipeline for drug design, integrating Docker, CI/CD, and AWS deployment; reduced experimental costs by 15%.
+#  date: Aug. 2014 - Feb. 2019
+- name: Cornell University (2019-2024), Postdoc Associate
   logo: /assets/images/badges/Cornell_University_seal.svg
-  position: Research Scientist (Postdoc Associate)
-  date: Feb. 2019 - present
-- name: The Chinese University of Hong Kong
-  logo: /assets/images/badges/CUHK_logo.png
-  position: Research Assistant (Ph.D. candidate)
-  date: Aug. 2014 - Feb. 2019
+  position: Designed and deployed ML systems and multimodal deep learning models for structural proteomics; engineered scalable pipelines, and deployed an interactive web server with visualization tools.
+#  date: Feb. 2019 - present
 
 
 
