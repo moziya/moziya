@@ -13,10 +13,8 @@
                                     <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
-                                        <div class="small">{{ item.dept }}</div>
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
-                                            <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
                                         </div>
                                     </div>
                                 </li>
@@ -28,21 +26,42 @@
 
                     {% if site.data.profile.awards %}
                     <div class="col-md-6">
-                        <div class="mx-2 my-1">
-                            <h6>Key Skills-----<i class="fas fa-cogs"></i></h6>
+                        <div class="mx-2 my-1"> <h6>Key Skills-----<i class="fas fa-cogs"></i></h6> 
+                            <ol>
+                                <li>3D Viral-Human Protein Interactome Pipeline
+                                    <ul>
+                                        <li>Built an full pipeline from data curation and AlphaFold structure prediction to interface analysis.</li>
+                                        <li>Deployed a public web platform with Docker for interactive analysis and visualization.</li>
+                                    </ul>
+                                </li>
+                                <li>Opioid Relapse Forecasting System
+                                    <ul>
+                                        <li>Developed a multivariate LSTM pipeline with weekly categorical time-series data.</li>
+                                        <li>Built a simulation framework for treatment interventions; enabled real-time risk scoring and clinical integration.</li>
+                                    </ul>
+                                </li>
+                                <li>Drug-Target Interaction Prediction Pipeline
+                                    <ul>
+                                        <li>Designed an end-to-end deep learning pipeline combining protein language models and graph neural networks.</li>
+                                        <li>Multimodal DL (protein sequence + drug graph + networks) at <b>28M</b> pairs -> <b>45K</b> candidates.</li>
+                                    </ul>
+                                </li>
+                            </ol>
+<!--                            
                             <ul class="list pl-3 mb-1">
                                 {% for item in site.data.profile.awards %}
                                 <li>
-<!--                                    <div class="d-flex">
                                         <div class="col-md-6">{{ item.name }}</div> <br>
                                         <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
                                     </div>
--->
                                         <div class="media-body col-md-6">{{ item.name }}</div>
                                 </li>
                                 <div class="ml-auto mt-auto col-md-8 small" style="text-align: right;"><em>{{ item.date }}</em></div>
                                 {% endfor %}
+-->
+                            
                             </ul>
+
                         </div>
                     </div>
                     {% endif %}
