@@ -32,7 +32,7 @@ portrait_url: /assets/images/photos/LeLi.jpg
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 experience:
-- name: Prologue Medicines (2025), Senior Scientist I
+- name: Prologue Medicines (2025), Senior Computational Scientist I
   logo: https://cdn.theorg.com/79f1f911-b082-4854-9a36-80c9ce861898_thumb.jpg
   position: Architected and deployed the company’s first production ML pipeline for drug design, integrating Docker, CI/CD, and AWS deployment; reduced experimental costs by 15%.
 #  date: Aug. 2014 - Feb. 2019
